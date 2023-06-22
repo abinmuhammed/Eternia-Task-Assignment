@@ -1,0 +1,36 @@
+.imageWidth{
+    width: 200px;
+}
+
+.textstyle{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 800px;
+}
+
+.textstyle a{
+    font-weight: bolder;
+}
+
+.containerOne{
+position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: azure;
+    font-size:40px;
+    font-weight: 900;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .center {
+      top: 10%;
+      font-size:15px ;
+    }
+  }
